@@ -17,10 +17,10 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='mlproject',
-version='0.0.1',
-author='Krish',
-author_email='krishnaik06@gmail.com',
+name='StudentPerformance Prediction with Deployment',
+version='1.1.1',
+author='Dharanesh',
+author_email='saidharanesh11@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 
